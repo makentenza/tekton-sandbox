@@ -4,6 +4,8 @@
 
     oc new-project tekton-pipelines
     oc adm policy add-scc-to-user anyuid -z tekton-pipelines-controller
-    oc apply -f [release.yaml](https://storage.googleapis.com/tekton-releases/latest/release.yaml)
+    oc apply -f release.yaml 
+    
+    ### Source file: https://storage.googleapis.com/tekton-releases/latest/release.yaml ###
 
 #### [Pipelines Documentation](https://github.com/tektoncd/pipeline/blob/master/docs/README.md)
